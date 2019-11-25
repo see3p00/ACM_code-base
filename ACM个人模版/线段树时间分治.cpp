@@ -26,7 +26,7 @@ void dfs(int o,int l,int r)
     }
     if(find(1)==find(n))ans+=a[r+1]-a[l];
     else if(l<r)dfs(o<<1,l,mid),dfs(o<<1|1,mid+1,r);m=la.size();
-    for(int i=m-1;i>=0;i--)fa[la[i]]=la[i];la.clear();
+    for(int i=m-1;i>=0;i--)fa[la[i]]=la[i];la.clear(); //回退
 }
 int main()
 {
