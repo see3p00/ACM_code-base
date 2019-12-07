@@ -48,13 +48,13 @@ inline void add(int l,int r,int val)//区间加
 		itl->val+=val;
 	return;
 }
-inline void querysum(int l,int r)//区间求和
+inline int querysum(int l,int r)//区间求和
 {
-    int ans=0;
-    IT itr=split(r+1),itl=split(l);
+    IT itr = split(r+1),itl = split(l);
+    int res=0;
     for(;itl!=itr;itl++)
-        ans+=itl->val;
-    return ans;
+        res+=(itl->r-itl->l+1)*itl->val ;
+    return res;
 }
 
 int main()
