@@ -1,0 +1,13 @@
+设备序列号：E43294820
+设备名称：农大303实验室DS-2DC7423IW-A(E43294820)
+设备通道：1
+AppKey：f32cd54d44d94428b26745dd3d57a46f
+Secret：60c7940ac9ae333bae117deb7435287e
+
+HLS播放地址（URL）信息：
+直播源地址（高清）：http://hls01open.ys7.com/openlive/6fc019b9130b4f9cbcfc37a25c780e2b.hd.m3u8
+直播源地址（流畅）：http://hls01open.ys7.com/openlive/6fc019b9130b4f9cbcfc37a25c780e2b.m3u8
+
+RTMP播放地址（URL）信息；
+直播源地址（高清）：rtmp://rtmp01open.ys7.com/openlive/6fc019b9130b4f9cbcfc37a25c780e2b.hd
+直播源地址（流畅）：rtmp://rtmp01open.ys7.com/openlive/6fc019b9130b4f9cbcfc37a25c780e2b
